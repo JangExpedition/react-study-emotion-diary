@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "site": "jangcccci-inflearn-project",
+    "public": "build",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
